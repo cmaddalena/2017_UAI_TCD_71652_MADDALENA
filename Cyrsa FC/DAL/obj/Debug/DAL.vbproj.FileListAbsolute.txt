@@ -10,3 +10,27 @@ c:\users\charly\documents\visual studio 2015\Projects\Cyrsa FC\DAL\obj\Debug\DAL
 c:\users\charly\documents\visual studio 2015\Projects\Cyrsa FC\DAL\obj\Debug\DAL.dll
 c:\users\charly\documents\visual studio 2015\Projects\Cyrsa FC\DAL\obj\Debug\DAL.xml
 c:\users\charly\documents\visual studio 2015\Projects\Cyrsa FC\DAL\obj\Debug\DAL.pdb
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\bin\Debug\DAL.dll
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\bin\Debug\DAL.pdb
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\bin\Debug\DAL.xml
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\bin\Debug\BE.dll
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\bin\Debug\BE.pdb
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\bin\Debug\BE.xml
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\obj\Debug\DAL.dll
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\obj\Debug\DAL.xml
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\obj\Debug\DAL.pdb
+C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\bin\Debug\DAL.dll
+C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\bin\Debug\DAL.pdb
+C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\bin\Debug\DAL.xml
+C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\bin\Debug\BE.dll
+C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\bin\Debug\BE.pdb
+C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\bin\Debug\BE.xml
+C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache
+C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\obj\Debug\DAL.dll
+C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\obj\Debug\DAL.xml
+C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\DAL\obj\Debug\DAL.pdb

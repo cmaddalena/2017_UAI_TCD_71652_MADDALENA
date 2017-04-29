@@ -2,14 +2,22 @@
 
 Imports System.Data.SqlClient
 Imports System.Data
+Imports System.Configuration
 
 
 Friend Class ACCESO
+
     Private conexion As SqlConnection
+
+
+
     Private transact As SqlTransaction
 
     Private Sub abrir()
-        conexion = New SqlConnection("Data Source=.\CYRSA_SA;Initial Catalog=CYRSA_FC;Integrated Security=SSPI")
+        ' con = ConfigurationManager.ConnectionStrings("DAL.My.MySettings.Conexion").ToString()
+        conexion = New SqlConnection(BE.Conexion.GetInstance.str)
+        'conexion = New SqlConnection("Data Source=CYRSA-COMPUTER\CYRSA_SA;Initial Catalog=CYRSA_FC;Integrated Security=True")
+        'conexion = New SqlConnection("Data Source=WSR062747;Initial Catalog=CYRSA_FC;Integrated Security=True")
         conexion.Open()
     End Sub
 

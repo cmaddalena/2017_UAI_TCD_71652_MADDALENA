@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DAL.ACCESO" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAEAAAAAAAIAAAAAwAAAAAAAAAAAAEAE=</HashCode>
+      <FileName>ACCESO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.Class1" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.MP_CLIENTE_ESCUELA" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MP_CLIENTE_ESCUELA.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.My.MySettings" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="DAL.My.Resources.Resources" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="DAL.My.MySettingsProperty" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

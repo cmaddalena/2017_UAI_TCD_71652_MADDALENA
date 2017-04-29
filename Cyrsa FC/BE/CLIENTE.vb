@@ -1,26 +1,6 @@
 ﻿Public Class CLIENTE
     Inherits PERSONA
 
-    Private _Usuario As String
-    Public Property Usuario() As String
-        Get
-            Return _Usuario
-        End Get
-        Set(ByVal value As String)
-            _Usuario = value
-        End Set
-    End Property
-
-    Private _Clave As String
-    Public Property Clave() As String
-        Get
-            Return _Clave
-        End Get
-        Set(ByVal value As String)
-            _Clave = value
-        End Set
-    End Property
-
     Private _STATUS As String
     Public Property STATUS() As String
         Get
@@ -51,7 +31,15 @@
         End Set
     End Property
 
-    Dim cuota As New CUOTAS
+    Dim CUOTAS As New List(Of CUOTAS)
 
+
+    Public Property TURNO As TURNO
+        Get
+            Return Nothing
+        End Get
+        Set(value As TURNO)
+        End Set
+    End Property
 
 End Class

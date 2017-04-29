@@ -29,5 +29,4 @@
             _INTERES = value
         End Set
     End Property
-
 End Class

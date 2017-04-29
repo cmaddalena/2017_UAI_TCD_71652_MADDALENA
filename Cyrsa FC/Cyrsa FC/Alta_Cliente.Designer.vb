@@ -39,6 +39,8 @@ Partial Class Alta_Cliente
         Me.Label6 = New System.Windows.Forms.Label()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -57,13 +59,13 @@ Partial Class Alta_Cliente
         '
         Me.ARCHIVOToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MENUPRINCIPALToolStripMenuItem})
         Me.ARCHIVOToolStripMenuItem.Name = "ARCHIVOToolStripMenuItem"
-        Me.ARCHIVOToolStripMenuItem.Size = New System.Drawing.Size(70, 20)
+        Me.ARCHIVOToolStripMenuItem.Size = New System.Drawing.Size(70, 19)
         Me.ARCHIVOToolStripMenuItem.Text = "ARCHIVO"
         '
         'MENUPRINCIPALToolStripMenuItem
         '
         Me.MENUPRINCIPALToolStripMenuItem.Name = "MENUPRINCIPALToolStripMenuItem"
-        Me.MENUPRINCIPALToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.MENUPRINCIPALToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
         Me.MENUPRINCIPALToolStripMenuItem.Text = "MENU_PRINCIPAL"
         '
         'Label1
@@ -169,7 +171,7 @@ Partial Class Alta_Cliente
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(253, 319)
+        Me.Label6.Location = New System.Drawing.Point(253, 358)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(44, 19)
@@ -178,7 +180,7 @@ Partial Class Alta_Cliente
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(353, 319)
+        Me.TextBox6.Location = New System.Drawing.Point(348, 355)
         Me.TextBox6.Margin = New System.Windows.Forms.Padding(2, 4, 2, 4)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(68, 25)
@@ -186,6 +188,8 @@ Partial Class Alta_Cliente
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.TextBox7)
+        Me.GroupBox1.Controls.Add(Me.Label7)
         Me.GroupBox1.Controls.Add(Me.TextBox2)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.Label2)
@@ -199,10 +203,28 @@ Partial Class Alta_Cliente
         Me.GroupBox1.Font = New System.Drawing.Font("Niagara Solid", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(13, 43)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(265, 262)
+        Me.GroupBox1.Size = New System.Drawing.Size(265, 302)
         Me.GroupBox1.TabIndex = 14
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "DETALLE_CLIENTE"
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(105, 264)
+        Me.TextBox7.Margin = New System.Windows.Forms.Padding(2, 4, 2, 4)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.TextBox7.Size = New System.Drawing.Size(137, 25)
+        Me.TextBox7.TabIndex = 12
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(19, 270)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(49, 19)
+        Me.Label7.TabIndex = 11
+        Me.Label7.Text = "PASSWORD"
         '
         'Alta_Cliente
         '
@@ -245,4 +267,6 @@ Partial Class Alta_Cliente
     Friend WithEvents Label6 As Label
     Friend WithEvents TextBox6 As TextBox
     Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents Label7 As Label
 End Class

@@ -50,5 +50,11 @@
         End Set
     End Property
 
-
+    Public Property Usuario As Usuario
+        Get
+            Return Nothing
+        End Get
+        Set(value As Usuario)
+        End Set
+    End Property
 End Class

@@ -8,8 +8,9 @@ Public Class MP_CLIENTE_ESCUELA
 
 
 
-    Public Function crearusuario(CLIENTE As BE.CLIENTE, CUOTA As BE.CUOTAS) As Integer
-        Dim parametros(6) As SqlParameter
+    Public Function crearusuario(CLIENTE As BE.CLIENTE, CUOTA As BE.CUOTAS, USER As BE.Usuario) As Integer
+        Dim pat As New BE.Patente
+        Dim parametros(7) As SqlParameter
         parametros(0) = acceso.crearparametro("@dni", CLIENTE.DNI)
         parametros(1) = acceso.crearparametro("@nombre", CLIENTE.Nombre)
         parametros(2) = acceso.crearparametro("@apellido", CLIENTE.Apellido)
@@ -17,6 +18,8 @@ Public Class MP_CLIENTE_ESCUELA
         parametros(4) = acceso.crearparametro("@mail", CLIENTE.Mail)
         parametros(5) = acceso.crearparametro("@fecha", fecha)
         parametros(6) = acceso.crearparametro("@monto", CUOTA.MONTO)
+        parametros(7) = acceso.crearparametro("@pass", USER.CLAVE)
+
 
 
         Return acceso.ESCRIBIR("Alta_cliente", parametros)

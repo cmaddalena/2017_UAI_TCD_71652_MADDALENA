@@ -19,5 +19,4 @@
             _SUELDO = value
         End Set
     End Property
-
 End Class

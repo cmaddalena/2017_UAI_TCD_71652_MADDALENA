@@ -10,10 +10,25 @@
     End Property
 
 
-    Dim PROFESOR As New PROFESOR
 
     Dim TURNOS As New List(Of TURNO)
 
+    Public Property PROFESOR As PROFESOR
+        Get
+            Return Nothing
+        End Get
+        Set(value As PROFESOR)
+        End Set
+    End Property
 
+    Dim CLIENTES As New List(Of BE.CLIENTE)
+
+    Public Property TURNO As TURNO
+        Get
+            Return Nothing
+        End Get
+        Set(value As TURNO)
+        End Set
+    End Property
 
 End Class

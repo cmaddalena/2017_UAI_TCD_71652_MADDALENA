@@ -55,7 +55,7 @@ Partial Class CyrsaFC_Menu
         'ALTASOCIOToolStripMenuItem
         '
         Me.ALTASOCIOToolStripMenuItem.Name = "ALTASOCIOToolStripMenuItem"
-        Me.ALTASOCIOToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ALTASOCIOToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.ALTASOCIOToolStripMenuItem.Text = "ALTA_SOCIO"
         '
         'CyrsaFC_Menu

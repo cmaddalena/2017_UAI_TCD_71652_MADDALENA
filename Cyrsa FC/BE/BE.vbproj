@@ -10,7 +10,8 @@
     <AssemblyName>BE</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,6 +46,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -67,7 +69,11 @@
     <Compile Include="Class1.vb" />
     <Compile Include="CLIENTE.vb" />
     <Compile Include="CLUB.vb" />
+    <Compile Include="Conexion.vb" />
     <Compile Include="CUOTAS.vb" />
+    <Compile Include="Grupo_Pantentes.vb" />
+    <Compile Include="Modelo.vb" />
+    <Compile Include="Modelo_User.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -83,9 +89,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Patente.vb" />
+    <Compile Include="PatenteAbstracta.vb" />
     <Compile Include="PERSONA.vb" />
     <Compile Include="PROFESOR.vb" />
     <Compile Include="TURNO.vb" />
+    <Compile Include="Usuario.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -96,7 +105,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
