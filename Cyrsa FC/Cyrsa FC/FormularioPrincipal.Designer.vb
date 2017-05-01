@@ -46,7 +46,7 @@ Partial Class FormularioPrincipal
         '
         Me.btnDefinirPatentes.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btnDefinirPatentes.Location = New System.Drawing.Point(383, 2)
-        Me.btnDefinirPatentes.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnDefinirPatentes.Margin = New System.Windows.Forms.Padding(2)
         Me.btnDefinirPatentes.Name = "btnDefinirPatentes"
         Me.btnDefinirPatentes.Size = New System.Drawing.Size(126, 56)
         Me.btnDefinirPatentes.TabIndex = 0
@@ -57,7 +57,7 @@ Partial Class FormularioPrincipal
         '
         Me.btnDefinirFamilias.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btnDefinirFamilias.Location = New System.Drawing.Point(256, 2)
-        Me.btnDefinirFamilias.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnDefinirFamilias.Margin = New System.Windows.Forms.Padding(2)
         Me.btnDefinirFamilias.Name = "btnDefinirFamilias"
         Me.btnDefinirFamilias.Size = New System.Drawing.Size(123, 56)
         Me.btnDefinirFamilias.TabIndex = 1
@@ -68,7 +68,7 @@ Partial Class FormularioPrincipal
         '
         Me.btnDefinirUsuarios.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btnDefinirUsuarios.Location = New System.Drawing.Point(129, 2)
-        Me.btnDefinirUsuarios.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnDefinirUsuarios.Margin = New System.Windows.Forms.Padding(2)
         Me.btnDefinirUsuarios.Name = "btnDefinirUsuarios"
         Me.btnDefinirUsuarios.Size = New System.Drawing.Size(123, 56)
         Me.btnDefinirUsuarios.TabIndex = 2
@@ -80,9 +80,9 @@ Partial Class FormularioPrincipal
         Me.GroupBox1.Controls.Add(Me.TableLayoutPanel1)
         Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.GroupBox1.Location = New System.Drawing.Point(0, 226)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Size = New System.Drawing.Size(515, 77)
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
@@ -101,7 +101,7 @@ Partial Class FormularioPrincipal
         Me.TableLayoutPanel1.Controls.Add(Me.btnIniciarSesionComoUsuario, 0, 0)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(2, 15)
-        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(2)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
@@ -112,7 +112,7 @@ Partial Class FormularioPrincipal
         '
         Me.btnIniciarSesionComoUsuario.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btnIniciarSesionComoUsuario.Location = New System.Drawing.Point(2, 2)
-        Me.btnIniciarSesionComoUsuario.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnIniciarSesionComoUsuario.Margin = New System.Windows.Forms.Padding(2)
         Me.btnIniciarSesionComoUsuario.Name = "btnIniciarSesionComoUsuario"
         Me.btnIniciarSesionComoUsuario.Size = New System.Drawing.Size(123, 56)
         Me.btnIniciarSesionComoUsuario.TabIndex = 3
@@ -128,7 +128,7 @@ Partial Class FormularioPrincipal
         Me.TableLayoutPanel2.Controls.Add(Me.RichTextBox1, 1, 0)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel2.Location = New System.Drawing.Point(2, 15)
-        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(2)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 2
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
@@ -151,7 +151,7 @@ Partial Class FormularioPrincipal
         '
         Me.RichTextBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox1.Location = New System.Drawing.Point(257, 2)
-        Me.RichTextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RichTextBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.TableLayoutPanel2.SetRowSpan(Me.RichTextBox1, 2)
         Me.RichTextBox1.Size = New System.Drawing.Size(252, 181)
@@ -163,9 +163,9 @@ Partial Class FormularioPrincipal
         Me.grpVistaUsuarios.Controls.Add(Me.TableLayoutPanel2)
         Me.grpVistaUsuarios.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grpVistaUsuarios.Location = New System.Drawing.Point(0, 24)
-        Me.grpVistaUsuarios.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.grpVistaUsuarios.Margin = New System.Windows.Forms.Padding(2)
         Me.grpVistaUsuarios.Name = "grpVistaUsuarios"
-        Me.grpVistaUsuarios.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.grpVistaUsuarios.Padding = New System.Windows.Forms.Padding(2)
         Me.grpVistaUsuarios.Size = New System.Drawing.Size(515, 202)
         Me.grpVistaUsuarios.TabIndex = 5
         Me.grpVistaUsuarios.TabStop = False
@@ -195,7 +195,7 @@ Partial Class FormularioPrincipal
         Me.Controls.Add(Me.grpVistaUsuarios)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.MenuStrip1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "FormularioPrincipal"
         Me.Text = "Ejemplo Usuario Familia Patente"
         Me.GroupBox1.ResumeLayout(False)

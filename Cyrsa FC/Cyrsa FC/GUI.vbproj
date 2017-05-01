@@ -111,10 +111,10 @@
     <Compile Include="FormularioABM.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormularioDialogoElegirUsuario.Designer.vb">
-      <DependentUpon>FormularioDialogoElegirUsuario.vb</DependentUpon>
+    <Compile Include="Loguin.Designer.vb">
+      <DependentUpon>Loguin.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormularioDialogoElegirUsuario.vb">
+    <Compile Include="Loguin.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormularioDialogoPatentes.Designer.vb">
@@ -153,6 +153,12 @@
     <Compile Include="Form_Confirmacion.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MENU_USER.Designer.vb">
+      <DependentUpon>MENU_USER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_USER.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Module1.vb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
@@ -182,8 +188,8 @@
     <EmbeddedResource Include="FormularioABM.resx">
       <DependentUpon>FormularioABM.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormularioDialogoElegirUsuario.resx">
-      <DependentUpon>FormularioDialogoElegirUsuario.vb</DependentUpon>
+    <EmbeddedResource Include="Loguin.resx">
+      <DependentUpon>Loguin.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioDialogoPatentes.resx">
       <DependentUpon>FormularioDialogoPatentes.vb</DependentUpon>
@@ -202,6 +208,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Confirmacion.resx">
       <DependentUpon>Form_Confirmacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_USER.resx">
+      <DependentUpon>MENU_USER.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

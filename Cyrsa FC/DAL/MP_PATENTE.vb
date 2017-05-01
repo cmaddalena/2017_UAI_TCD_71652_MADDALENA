@@ -13,5 +13,28 @@ Public Class MP_PATENTE
     End Function
 
 
+    Public Function login(u As BE.Usuario) As List(Of BE.Patente)
+        Dim grupopatentes As New List(Of BE.Patente)
+        Dim gp As BE.Patente
+        Dim dt As New DataTable
+        Dim parametros(1) As SqlParameter
+
+        parametros(0) = acceso.crearparametro("@usuario", u.Nombre)
+        parametros(1) = acceso.crearparametro("@clave", u.CLAVE)
+        dt = acceso.leer("DEVOLVER_FORMS", parametros)
+
+        For Each r In dt.Rows
+            gp = New BE.Patente
+            gp.Nombre = r("NOMBRE_PAT")
+            'user.CLAVE = r("CLAVE")
+            gp.Formulario = r("FORMULARIO")
+
+            grupopatentes.Add(gp)
+
+
+        Next
+        Return grupopatentes
+    End Function
+
 
 End Class

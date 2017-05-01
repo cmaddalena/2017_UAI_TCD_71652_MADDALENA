@@ -33,4 +33,9 @@ Public Class Patente
     Public Overrides Sub Execute()
         'Crea y muestra el formulario
     End Sub
+
+    Public Overrides Function ToString() As String
+        Return Me.Nombre & " - " & Me.Formulario
+    End Function
+
 End Class

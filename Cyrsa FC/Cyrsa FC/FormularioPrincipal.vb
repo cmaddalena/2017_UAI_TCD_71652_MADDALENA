@@ -16,7 +16,12 @@
     End Sub
 
     Private Sub btnIniciarSesionComoUsuario_Click(sender As Object, e As EventArgs) Handles btnIniciarSesionComoUsuario.Click
-        Dim frm As New FormularioDialogoElegirUsuario
+        Dim frm As New Loguin
         frm.ShowDialog()
+    End Sub
+
+    Private Sub FormularioPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Module1.conectar()
+
     End Sub
 End Class

@@ -1,9 +1,11 @@
 ﻿Public Class FormularioUsuarios
     Dim gestor As New BLL.Gestor_Usuario
+    Dim gestorgrupos As New BLL.Gestor_GrupoPatentes
     Dim familias As New List(Of BE.Grupo_Pantentes)
     Dim mifamilia As New BE.Grupo_Pantentes
     Dim nombrefamilia As String
     Dim SELECCIONADA As Boolean
+
 
 
     Public Sub New()
@@ -43,7 +45,12 @@
 
         Next
 
+        Dim u As New BE.Usuario
+        Dim fa As New BE.Grupo_Pantentes
+        u = DirectCast(ComboBox2.SelectedItem, BE.Usuario)
+        fa = DirectCast(comboBox1.SelectedItem, BE.Grupo_Pantentes)
 
+        gestorgrupos.asignar_permisos(u, fa)
 
         ' Me.Close()
     End Sub
@@ -85,8 +92,10 @@
     End Sub
 
     Private Sub FormularioUsuarios_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Module1.conectar()
+        'comboBox1.DataSource = BE.Modelo.GetInstance.Familias
+        comboBox1.DataSource = gestorgrupos.Listar_grupos_distintos
 
-        comboBox1.DataSource = BE.Modelo.GetInstance.Familias
         nombrefamilia = comboBox1.SelectedItem.ToString
 
 

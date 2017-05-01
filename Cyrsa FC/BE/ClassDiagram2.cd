@@ -11,7 +11,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="BE.Class1" Collapsed="true">
-    <Position X="7" Y="0.5" Width="1.5" />
+    <Position X="13.5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Class1.vb</FileName>
@@ -25,37 +25,37 @@
     </TypeIdentifier>
   </Class>
   <Class Name="BE.CLUB" Collapsed="true">
-    <Position X="8.75" Y="0.5" Width="1.5" />
+    <Position X="13.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CLUB.vb</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.CUOTAS">
-    <Position X="4.75" Y="4" Width="1.5" />
+    <Position X="2.75" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAIAABIAAAAAAAAAAAggA=</HashCode>
       <FileName>CUOTAS.vb</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.Grupo_Pantentes">
-    <Position X="6.5" Y="6.75" Width="1.5" />
+    <Position X="6.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQkAAAAAABAAAAAAAAAAQAAAAAAABA=</HashCode>
+      <HashCode>AAAAAgAAAAAAAAQEAAAAAAAAAAAAQAAAAQAAAAAAABA=</HashCode>
       <FileName>Grupo_Pantentes.vb</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.Patente">
-    <Position X="10.5" Y="7" Width="1.5" />
+    <Position X="10.25" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAQAACAAAAAAAAAAAAAAAQAAAAAAABA=</HashCode>
+      <HashCode>AAAAAgAAAIAAAAREACAAAAAAAAAAAAAAAQAAAAAAABA=</HashCode>
       <FileName>Patente.vb</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BE.PatenteAbstracta" Collapsed="true">
-    <Position X="8" Y="5.25" Width="1.5" />
+  <Class Name="BE.PatenteAbstracta">
+    <Position X="8.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQgAAAAgAAAAIAAAAAAAQAAAAIAABA=</HashCode>
+      <HashCode>AAAAAgAAAAAAAAQgAAAAgAAAAIAAAAAAAQAAAAIAABA=</HashCode>
       <FileName>PatenteAbstracta.vb</FileName>
     </TypeIdentifier>
   </Class>
@@ -94,17 +94,10 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="BE.Modelo">
-    <Position X="9.75" Y="1.5" Width="1.5" />
+    <Position X="13.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEAEAAAAABAAAAAAQAAAAAAABAAAAAAAgAAAAAAIAgA=</HashCode>
       <FileName>Modelo.vb</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="BE.Modelo_User">
-    <Position X="7.75" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AEAEAAAAABAAAAAAQAAAAAAABAAAAAAAgAAAAAAIAgA=</HashCode>
-      <FileName>Modelo_User.vb</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

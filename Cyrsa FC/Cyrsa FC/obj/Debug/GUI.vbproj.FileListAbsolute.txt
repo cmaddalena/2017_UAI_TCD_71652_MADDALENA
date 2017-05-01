@@ -66,10 +66,11 @@ C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\
 C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\bin\Debug\Cyrsa FC.exe.config
 C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\bin\Debug\Module1.vb
 C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\obj\Debug\Cyrsa_FC.FormularioABM.resources
-C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\obj\Debug\Cyrsa_FC.FormularioDialogoElegirUsuario.resources
 C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\obj\Debug\Cyrsa_FC.FormularioDialogoPatentes.resources
 C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\obj\Debug\Cyrsa_FC.FormularioFamilia.resources
 C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\obj\Debug\Cyrsa_FC.FormularioPatentes.resources
 C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\obj\Debug\Cyrsa_FC.FormularioPrincipal.resources
 C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\obj\Debug\Cyrsa_FC.FormularioUsuarios.resources
 C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\obj\Debug\Cyrsa_FC.Form_Confirmacion.resources
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\obj\Debug\Cyrsa_FC.Loguin.resources
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\obj\Debug\Cyrsa_FC.MENU_USER.resources

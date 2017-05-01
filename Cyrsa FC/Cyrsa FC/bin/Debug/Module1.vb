@@ -8,8 +8,11 @@ Module Module1
     Public con As New SqlConnection(ConfigurationManager.ConnectionStrings("string_conexion").ToString)
 
     Sub conectar()
-        con.Open()
-        MessageBox.Show(ConfigurationManager.ConnectionStrings("string_conexion").ToString)
+        If con.State = ConnectionState.Closed Then
+            con.Open()
+        End If
+
+        MessageBox.Show("USTED SE ESTA CONECTANDO CON EL SIGUIENTE STRING DE CONEXION: " & ConfigurationManager.ConnectionStrings("string_conexion").ToString)
 
         BE.Conexion.GetInstance.str = (ConfigurationManager.ConnectionStrings("string_conexion").ToString)
     End Sub

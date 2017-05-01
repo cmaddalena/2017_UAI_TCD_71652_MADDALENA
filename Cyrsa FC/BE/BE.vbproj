@@ -70,6 +70,7 @@
     <Compile Include="CLIENTE.vb" />
     <Compile Include="CLUB.vb" />
     <Compile Include="Conexion.vb" />
+    <Compile Include="CryptoManager.vb" />
     <Compile Include="CUOTAS.vb" />
     <Compile Include="Grupo_Pantentes.vb" />
     <Compile Include="Modelo.vb" />
