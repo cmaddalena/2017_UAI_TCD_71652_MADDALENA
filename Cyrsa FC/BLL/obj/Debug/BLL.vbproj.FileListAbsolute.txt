@@ -43,3 +43,18 @@ C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\
 C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\BLL\obj\Debug\BLL.dll
 C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\BLL\obj\Debug\BLL.xml
 C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\BLL\obj\Debug\BLL.pdb
+C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\BLL\bin\Debug\BLL.dll
+C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\BLL\bin\Debug\BLL.pdb
+C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\BLL\bin\Debug\BLL.xml
+C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\BLL\bin\Debug\BE.dll
+C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\BLL\bin\Debug\DAL.dll
+C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\BLL\bin\Debug\BE.pdb
+C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\BLL\bin\Debug\BE.xml
+C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\BLL\bin\Debug\DAL.pdb
+C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\BLL\bin\Debug\DAL.xml
+C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\BLL\obj\Debug\BLL.vbprojResolveAssemblyReference.cache
+C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\BLL\obj\Debug\BLL.Resources.resources
+C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\BLL\obj\Debug\BLL.vbproj.GenerateResource.Cache
+C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\BLL\obj\Debug\BLL.dll
+C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\BLL\obj\Debug\BLL.xml
+C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\BLL\obj\Debug\BLL.pdb

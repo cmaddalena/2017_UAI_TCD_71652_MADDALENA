@@ -32,23 +32,26 @@ Partial Class MENU_USER
         Me.MenuUser.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AToolStripMenuItem})
         Me.MenuUser.Location = New System.Drawing.Point(0, 0)
         Me.MenuUser.Name = "MenuUser"
-        Me.MenuUser.Size = New System.Drawing.Size(369, 24)
+        Me.MenuUser.Padding = New System.Windows.Forms.Padding(9, 3, 0, 3)
+        Me.MenuUser.Size = New System.Drawing.Size(554, 25)
         Me.MenuUser.TabIndex = 0
         Me.MenuUser.Text = "MenuStrip1"
         '
         'AToolStripMenuItem
         '
         Me.AToolStripMenuItem.Name = "AToolStripMenuItem"
-        Me.AToolStripMenuItem.Size = New System.Drawing.Size(107, 20)
+        Me.AToolStripMenuItem.Size = New System.Drawing.Size(107, 19)
         Me.AToolStripMenuItem.Text = "MENU_USUARIO"
         '
         'MENU_USER
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(369, 181)
+        Me.ClientSize = New System.Drawing.Size(554, 278)
         Me.Controls.Add(Me.MenuUser)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MainMenuStrip = Me.MenuUser
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "MENU_USER"
         Me.Text = "MENU_USER"
         Me.MenuUser.ResumeLayout(False)

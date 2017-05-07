@@ -25,49 +25,66 @@ Partial Class CyrsaFC_Menu
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ARCHIVOToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GESTIONESCUELAToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ALTASOCIOToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SALIRToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AYUDAToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LEEMEToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ARCHIVOToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ARCHIVOToolStripMenuItem, Me.AYUDAToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(633, 24)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(9, 3, 0, 3)
+        Me.MenuStrip1.Size = New System.Drawing.Size(950, 25)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ARCHIVOToolStripMenuItem
         '
-        Me.ARCHIVOToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.GESTIONESCUELAToolStripMenuItem})
+        Me.ARCHIVOToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.GESTIONESCUELAToolStripMenuItem, Me.SALIRToolStripMenuItem})
         Me.ARCHIVOToolStripMenuItem.Name = "ARCHIVOToolStripMenuItem"
         Me.ARCHIVOToolStripMenuItem.Size = New System.Drawing.Size(70, 20)
         Me.ARCHIVOToolStripMenuItem.Text = "ARCHIVO"
         '
         'GESTIONESCUELAToolStripMenuItem
         '
-        Me.GESTIONESCUELAToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ALTASOCIOToolStripMenuItem})
         Me.GESTIONESCUELAToolStripMenuItem.Name = "GESTIONESCUELAToolStripMenuItem"
-        Me.GESTIONESCUELAToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
-        Me.GESTIONESCUELAToolStripMenuItem.Text = "GESTION_ESCUELA"
+        Me.GESTIONESCUELAToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.GESTIONESCUELAToolStripMenuItem.Text = "LOGIN"
         '
-        'ALTASOCIOToolStripMenuItem
+        'SALIRToolStripMenuItem
         '
-        Me.ALTASOCIOToolStripMenuItem.Name = "ALTASOCIOToolStripMenuItem"
-        Me.ALTASOCIOToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
-        Me.ALTASOCIOToolStripMenuItem.Text = "ALTA_SOCIO"
+        Me.SALIRToolStripMenuItem.Name = "SALIRToolStripMenuItem"
+        Me.SALIRToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.SALIRToolStripMenuItem.Text = "SALIR"
+        '
+        'AYUDAToolStripMenuItem
+        '
+        Me.AYUDAToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LEEMEToolStripMenuItem})
+        Me.AYUDAToolStripMenuItem.Name = "AYUDAToolStripMenuItem"
+        Me.AYUDAToolStripMenuItem.Size = New System.Drawing.Size(58, 20)
+        Me.AYUDAToolStripMenuItem.Text = "AYUDA"
+        '
+        'LEEMEToolStripMenuItem
+        '
+        Me.LEEMEToolStripMenuItem.Name = "LEEMEToolStripMenuItem"
+        Me.LEEMEToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.LEEMEToolStripMenuItem.Text = "LEEME"
         '
         'CyrsaFC_Menu
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Cyrsa_FC.My.Resources.Resources.pelota
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(633, 375)
+        Me.ClientSize = New System.Drawing.Size(950, 577)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "CyrsaFC_Menu"
         Me.Text = "CyrsaFC_Menu"
         Me.MenuStrip1.ResumeLayout(False)
@@ -80,5 +97,7 @@ Partial Class CyrsaFC_Menu
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents ARCHIVOToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents GESTIONESCUELAToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ALTASOCIOToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SALIRToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AYUDAToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents LEEMEToolStripMenuItem As ToolStripMenuItem
 End Class

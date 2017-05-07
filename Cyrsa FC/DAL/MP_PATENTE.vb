@@ -12,6 +12,32 @@ Public Class MP_PATENTE
         Return acceso.ESCRIBIR("alta_patente", parametros)
     End Function
 
+    Public Function listar_patentesdelgrupo(g As String) As List(Of BE.Patente)
+        Dim patentes As New List(Of BE.Patente)
+
+        Dim dt As New DataTable
+
+        Dim p(0) As SqlParameter
+        p(0) = acceso.crearparametro("@nombre_grupo", g)
+
+
+        dt = acceso.leer("listar_patentesdegrupo", p)
+
+        For Each r In dt.Rows
+            Dim pat As New BE.Patente
+
+            pat.Nombre = r("NOMBRE_PAT")
+            pat.Formulario = r("FORMULARIO")
+
+            patentes.Add(pat)
+
+        Next
+
+        Return patentes
+
+
+    End Function
+
 
     Public Function login(u As BE.Usuario) As List(Of BE.Patente)
         Dim grupopatentes As New List(Of BE.Patente)

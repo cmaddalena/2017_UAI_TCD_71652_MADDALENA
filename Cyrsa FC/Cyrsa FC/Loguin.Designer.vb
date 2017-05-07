@@ -22,77 +22,88 @@ Partial Class Loguin
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Loguin))
         Me.LoginUser = New System.Windows.Forms.TextBox()
         Me.LoginPassword = New System.Windows.Forms.TextBox()
         Me.LUsuario = New System.Windows.Forms.Label()
         Me.LPassword = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'LoginUser
         '
-        Me.LoginUser.Location = New System.Drawing.Point(103, 26)
+        Me.LoginUser.Location = New System.Drawing.Point(154, 40)
+        Me.LoginUser.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.LoginUser.Name = "LoginUser"
-        Me.LoginUser.Size = New System.Drawing.Size(244, 20)
+        Me.LoginUser.Size = New System.Drawing.Size(364, 26)
         Me.LoginUser.TabIndex = 0
         '
         'LoginPassword
         '
-        Me.LoginPassword.Location = New System.Drawing.Point(103, 66)
+        Me.LoginPassword.Location = New System.Drawing.Point(154, 102)
+        Me.LoginPassword.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.LoginPassword.Name = "LoginPassword"
-        Me.LoginPassword.Size = New System.Drawing.Size(244, 20)
+        Me.LoginPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.LoginPassword.Size = New System.Drawing.Size(364, 26)
         Me.LoginPassword.TabIndex = 1
         '
         'LUsuario
         '
         Me.LUsuario.AutoSize = True
-        Me.LUsuario.Location = New System.Drawing.Point(27, 26)
+        Me.LUsuario.Location = New System.Drawing.Point(40, 40)
+        Me.LUsuario.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LUsuario.Name = "LUsuario"
-        Me.LUsuario.Size = New System.Drawing.Size(43, 13)
+        Me.LUsuario.Size = New System.Drawing.Size(64, 20)
         Me.LUsuario.TabIndex = 2
         Me.LUsuario.Text = "Usuario"
         '
         'LPassword
         '
         Me.LPassword.AutoSize = True
-        Me.LPassword.Location = New System.Drawing.Point(27, 69)
+        Me.LPassword.Location = New System.Drawing.Point(40, 106)
+        Me.LPassword.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LPassword.Name = "LPassword"
-        Me.LPassword.Size = New System.Drawing.Size(34, 13)
+        Me.LPassword.Size = New System.Drawing.Size(48, 20)
         Me.LPassword.TabIndex = 3
         Me.LPassword.Text = "Clave"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(160, 118)
+        Me.Button1.Location = New System.Drawing.Point(300, 151)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(112, 35)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "Loguear"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'ListBox1
+        'PictureBox1
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(385, 12)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(289, 134)
-        Me.ListBox1.TabIndex = 5
+        Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox1.Location = New System.Drawing.Point(585, 40)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(127, 88)
+        Me.PictureBox1.TabIndex = 5
+        Me.PictureBox1.TabStop = False
         '
         'Loguin
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(686, 168)
-        Me.Controls.Add(Me.ListBox1)
+        Me.ClientSize = New System.Drawing.Size(844, 200)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.LPassword)
         Me.Controls.Add(Me.LUsuario)
         Me.Controls.Add(Me.LoginPassword)
         Me.Controls.Add(Me.LoginUser)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "Loguin"
-        Me.Text = "Login"
+        Me.Text = "Login_CYRSA-FC"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -102,5 +113,5 @@ Partial Class Loguin
     Friend WithEvents LUsuario As System.Windows.Forms.Label
     Friend WithEvents LPassword As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

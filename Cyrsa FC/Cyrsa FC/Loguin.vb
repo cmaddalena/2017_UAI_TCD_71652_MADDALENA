@@ -24,7 +24,7 @@
                 MessageBox.Show("Usted no posee acceso ó perfil para ingresar al sistema - Comuniquese con su adiministrador")
 
             Else
-                ListBox1.DataSource = patentes
+                '  ListBox1.DataSource = patentes
                 Dim frm As New MENU_USER
                 frm.inicio(patentes)
 

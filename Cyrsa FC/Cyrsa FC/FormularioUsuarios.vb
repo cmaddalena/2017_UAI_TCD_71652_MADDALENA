@@ -3,6 +3,7 @@
     Dim gestorgrupos As New BLL.Gestor_GrupoPatentes
     Dim familias As New List(Of BE.Grupo_Pantentes)
     Dim mifamilia As New BE.Grupo_Pantentes
+    Dim gpat As New BLL.Gestor_Patente
     Dim nombrefamilia As String
     Dim SELECCIONADA As Boolean
 
@@ -52,7 +53,7 @@
 
         gestorgrupos.asignar_permisos(u, fa)
 
-        ' Me.Close()
+        Me.Close()
     End Sub
 
     Private Sub LoadPermisoRecursivo(fa As BE.Grupo_Pantentes, tr As TreeNode)
@@ -103,6 +104,45 @@
     End Sub
 
     Private Sub Familia_Click(sender As Object, e As EventArgs) Handles Familia.Click
+
+    End Sub
+
+    Private Sub comboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles comboBox1.SelectedIndexChanged
+        Dim patentes As New List(Of BE.Patente)
+        Dim gp As New BE.Grupo_Pantentes
+        gp = DirectCast(comboBox1.SelectedItem, BE.Grupo_Pantentes)
+
+
+        patentes = gestorgrupos.Listar_patentesdelgrupo(gp.Nombre)
+
+
+        Dim tr As TreeNode
+        tr = New TreeNode
+        tr.Text = gp.Nombre
+
+        Me.treePatentes.Nodes.Add(tr)
+
+
+        For Each p In patentes
+
+            Dim trn As New TreeNode
+            trn.Text = p.Nombre & "-" & p.Formulario
+            trn.Tag = p
+            tr.Nodes.Add(trn)
+            '  If gp.list.Count = 1 Then
+
+            ' LoadPermisoRecursivo(f, tr)
+            'ElseIf f.list.Count > 1 Then
+
+            'LoadPermisoRecursivo(f, trn)
+
+
+            'End If
+
+            '   End If
+            'Me.treePatentes.Nodes.IndexOf(tr)
+
+        Next
 
     End Sub
 End Class

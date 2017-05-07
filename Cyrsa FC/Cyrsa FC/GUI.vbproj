@@ -92,17 +92,16 @@
     <Compile Include="Consulta_estado_cuenta.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Creacion_BBDD.Designer.vb">
+      <DependentUpon>Creacion_BBDD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Creacion_BBDD.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CyrsaFC_Menu.Designer.vb">
       <DependentUpon>CyrsaFC_Menu.vb</DependentUpon>
     </Compile>
     <Compile Include="CyrsaFC_Menu.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormularioABM.Designer.vb">
@@ -182,6 +181,9 @@
     <EmbeddedResource Include="Alta_Cliente.resx">
       <DependentUpon>Alta_Cliente.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Creacion_BBDD.resx">
+      <DependentUpon>Creacion_BBDD.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CyrsaFC_Menu.resx">
       <DependentUpon>CyrsaFC_Menu.vb</DependentUpon>
     </EmbeddedResource>
@@ -245,6 +247,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pelota.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\bbdd.png" />
+    <Content Include="Resources\login.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
