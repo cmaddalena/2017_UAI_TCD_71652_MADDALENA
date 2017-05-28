@@ -116,7 +116,7 @@ Partial Class FormularioPatentes
         Me.Familia.Name = "Familia"
         Me.Familia.Size = New System.Drawing.Size(420, 45)
         Me.Familia.TabIndex = 0
-        Me.Familia.Text = "Datos de las patentes"
+        Me.Familia.Text = "PATENTES - CYRSAFC"
         Me.Familia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'tableLayoutPanel2

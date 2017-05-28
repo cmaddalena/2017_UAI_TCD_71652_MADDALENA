@@ -21,9 +21,20 @@
     End Property
 
 
+    Private _ID As Integer
+    Public Property ID() As Integer
+        Get
+            Return _ID
+        End Get
+        Set(ByVal value As Integer)
+            _ID = value
+        End Set
+    End Property
+
 
     Public MustOverride Function list() As List(Of PatenteAbstracta)
 
+    Public MustOverride Function Agregar_rol(f As BE.PatenteAbstracta) As Boolean
 
 
     Public MustOverride Sub MostrarEnTreeview(ByRef padres As System.Windows.Forms.TreeNodeCollection)

@@ -119,5 +119,48 @@ Public Class FormularioPatentes
     Private Sub FormularioPatentes_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Module1.conectar()
 
+        MostrarEnTreeView(treePatentes)
+
+
+
+
     End Sub
+
+
+
+
+
+    Public Function MostrarEnTreeView(pTreeView As System.Windows.Forms.TreeView) As System.Windows.Forms.TreeView
+        Try
+            Dim vLista As New List(Of BE.PatenteAbstracta)
+            Dim gestor As New BLL.Gestor_Patente
+            vLista = gestor.listarpatentes
+            For Each r In vLista
+
+                Dim vNode As System.Windows.Forms.TreeNode = pTreeView.Nodes.Add(r.NOMBRE)
+                vNode.Tag = r
+                AgregarNodos(vNode, vNode.Tag)
+            Next
+
+        Catch ex As Exception
+
+        End Try
+        Return pTreeView
+    End Function
+
+
+    Private Sub AgregarNodos(pTreeNode As System.Windows.Forms.TreeNode, pContenedor As BE.Grupo_Pantentes)
+        For Each vFiguraContenedor As BE.PatenteAbstracta In pContenedor.list
+            Dim vTreeNode As New System.Windows.Forms.TreeNode
+            vTreeNode.Text = vFiguraContenedor.Nombre
+            vTreeNode.Tag = vFiguraContenedor
+            If TypeOf vFiguraContenedor Is BE.Grupo_Pantentes Then
+                Dim vContenedor As BE.Grupo_Pantentes = DirectCast(vFiguraContenedor, BE.Grupo_Pantentes)
+                AgregarNodos(vTreeNode, vContenedor)
+            End If
+            pTreeNode.Nodes.Add(vTreeNode)
+        Next
+    End Sub
+
+
 End Class

@@ -7,7 +7,7 @@
             Dim asm As System.Reflection.Assembly = System.Reflection.Assembly.GetExecutingAssembly
 
             Dim f As Form = CType(asm.CreateInstance(i.Formulario), Form)
-            
+
 
             '   f.Name = i.Formulario
 

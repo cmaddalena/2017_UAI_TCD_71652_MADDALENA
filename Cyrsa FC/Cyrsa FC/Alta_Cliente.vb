@@ -9,7 +9,7 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim cliente As New BE.CLIENTE
         Dim cuota As New BE.CUOTAS
-        Dim gestor As New BLL.Gestor_Cliente
+        Dim gestor As New BLL.Gestor_Usuario
         Dim USUARIO As New BE.Usuario
         Dim crypto As New BE.CryptoManager
 
@@ -27,7 +27,7 @@
             ' USUARIO.Nombre = cliente.Nombre And "." And cliente.Apellido
 
 
-            gestor.registar(cliente, cuota, USUARIO)
+            gestor.registarcliente(cliente, cuota, USUARIO)
 
 
         Else

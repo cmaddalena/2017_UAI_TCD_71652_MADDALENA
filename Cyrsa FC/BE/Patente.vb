@@ -38,4 +38,7 @@ Public Class Patente
         Return Me.Nombre & " - " & Me.Formulario
     End Function
 
+    Public Overrides Function Agregar_rol(f As PatenteAbstracta) As Boolean
+        Throw New NotImplementedException()
+    End Function
 End Class

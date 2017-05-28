@@ -68,10 +68,12 @@
   <ItemGroup>
     <Compile Include="ACCESO.vb" />
     <Compile Include="Class1.vb" />
+    <Compile Include="Conexion.vb" />
     <Compile Include="MP_CLIENTE_ESCUELA.vb" />
     <Compile Include="MP_FAMILIA.vb" />
     <Compile Include="MP_GRUPOPATENTES.vb" />
     <Compile Include="MP_PATENTE.vb" />
+    <Compile Include="MP_PROFESOR.vb" />
     <Compile Include="MP_USUARIOS.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

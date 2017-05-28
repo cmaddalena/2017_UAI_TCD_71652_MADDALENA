@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="BE.CLASE">
-    <Position X="2.75" Y="4.5" Width="1.5" />
+    <Position X="4.5" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAABAAAAAAAAgAAAAAAAAAAAACAQAAAAAABA=</HashCode>
       <FileName>CLASE.vb</FileName>
@@ -11,56 +11,56 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="BE.Class1" Collapsed="true">
-    <Position X="13.5" Y="5.75" Width="1.5" />
+    <Position X="15.25" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Class1.vb</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.CLIENTE">
-    <Position X="0.5" Y="1.25" Width="1.5" />
+    <Position X="0.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EAAAAAAAAAJAAAAgAAAAAAAAAAAAAEQAAAAAAAAAARA=</HashCode>
       <FileName>CLIENTE.vb</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.CLUB" Collapsed="true">
-    <Position X="13.5" Y="4.75" Width="1.5" />
+    <Position X="15.5" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CLUB.vb</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.CUOTAS">
-    <Position X="2.75" Y="7.25" Width="1.5" />
+    <Position X="2.75" Y="8" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAIAABIAAAAAAAAAAAggA=</HashCode>
       <FileName>CUOTAS.vb</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.Grupo_Pantentes">
-    <Position X="6.5" Y="5.25" Width="1.5" />
+    <Position X="9" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAgAAAAAAAAQEAAAAAAAAAAAAQAAAAQAAAAAAABA=</HashCode>
       <FileName>Grupo_Pantentes.vb</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.Patente">
-    <Position X="10.25" Y="5" Width="1.5" />
+    <Position X="11.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAgAAAIAAAAREACAAAAAAAAAAAAAAAQAAAAAAABA=</HashCode>
       <FileName>Patente.vb</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.PatenteAbstracta">
-    <Position X="8.25" Y="1.5" Width="1.5" />
+    <Position X="10.25" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAgAAAAAAAAQgAAAAgAAAAIAAAAAAAQAAAAIAABA=</HashCode>
       <FileName>PatenteAbstracta.vb</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BE.PERSONA" Collapsed="true">
-    <Position X="1.75" Y="0.5" Width="1.5" />
+  <Class Name="BE.PERSONA">
+    <Position X="2" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEgACAgAAAAAEAAAAAAAEUAQAABAA=</HashCode>
       <FileName>PERSONA.vb</FileName>
@@ -69,22 +69,22 @@
       <Property Name="Usuario" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="BE.PROFESOR" Collapsed="true">
-    <Position X="2.75" Y="1.75" Width="1.5" />
+  <Class Name="BE.PROFESOR">
+    <Position X="3.75" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>BAAAAAAAAABAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>BIAAAACAAABAQAAAAAAAAAAAAABAAAAAACAAAACAAAA=</HashCode>
       <FileName>PROFESOR.vb</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.TURNO">
-    <Position X="0.5" Y="6.75" Width="1.5" />
+    <Position X="0.5" Y="7.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>CAAAAAAAAAAAAAAIAAAAAAAAAAAAAAEAAQAAAAAAAAA=</HashCode>
       <FileName>TURNO.vb</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.Usuario">
-    <Position X="5" Y="0.5" Width="1.5" />
+    <Position X="7.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAQAAAIAAAAAACEAAAAgAAAAAEAAAAAAAEMAAIIAAA=</HashCode>
       <FileName>Usuario.vb</FileName>

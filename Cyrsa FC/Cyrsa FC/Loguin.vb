@@ -1,5 +1,6 @@
 ﻿Public Class Loguin
     Dim gestor As New BLL.Gestor_Patente
+    Dim gestorusr As New BLL.Gestor_Usuario
     Dim crypto As New BE.CryptoManager
 
     Private Sub FormularioDialogoElegirUsuario_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -17,19 +18,24 @@
             user.Nombre = LoginUser.Text
             user.CLAVE = crypto.Encrypt(LoginPassword.Text)
 
-            patentes = gestor.listar_patentes_usuario(user)
+            Try
+                patentes = gestorusr.listar_patentes_usuario(user)
 
-            If patentes.Count = 0 Then
+                If patentes.Count = 0 Then
 
-                MessageBox.Show("Usted no posee acceso ó perfil para ingresar al sistema - Comuniquese con su adiministrador")
+                    MessageBox.Show("Usted no posee acceso ó perfil para ingresar al sistema - Comuniquese con su adiministrador")
 
-            Else
-                '  ListBox1.DataSource = patentes
-                Dim frm As New MENU_USER
-                frm.inicio(patentes)
+                Else
+                    '  ListBox1.DataSource = patentes
+                    Dim frm As New MENU_USER
+                    frm.inicio(patentes)
 
 
-            End If
+                End If
+            Catch
+                Dim frm As New Creacion_BBDD
+                frm.Show()
+            End Try
 
         Else
 
@@ -62,7 +68,7 @@
         Return False
     End Function
 
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
 
-
-
+    End Sub
 End Class

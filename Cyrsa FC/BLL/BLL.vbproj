@@ -65,7 +65,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.vb" />
-    <Compile Include="Gestor_Cliente.vb" />
     <Compile Include="Gestor_GrupoPatentes.vb" />
     <Compile Include="Gestor_Patente.vb" />
     <Compile Include="Gestor_Usuario.vb" />

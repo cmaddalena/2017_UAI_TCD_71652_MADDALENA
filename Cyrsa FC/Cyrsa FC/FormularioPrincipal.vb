@@ -5,7 +5,7 @@
         frm.ShowDialog()
     End Sub
 
-    Private Sub btnDefinirFamilias_Click(sender As Object, e As EventArgs) Handles btnDefinirFamilias.Click
+    Private Sub btnDefinirFamilias_Click(sender As Object, e As EventArgs)
         Dim frm As New FormularioFamilia
         frm.ShowDialog()
     End Sub
@@ -16,8 +16,8 @@
     End Sub
 
     Private Sub btnIniciarSesionComoUsuario_Click(sender As Object, e As EventArgs) Handles btnIniciarSesionComoUsuario.Click
-        Dim frm As New Loguin
-        frm.ShowDialog()
+        Loguin.Show()
+
     End Sub
 
     Private Sub FormularioPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load

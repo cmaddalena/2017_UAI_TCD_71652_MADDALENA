@@ -18,9 +18,10 @@ C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\B
 C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\BE\bin\Debug\BE.dll
 C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\BE\bin\Debug\BE.pdb
 C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\BE\bin\Debug\BE.xml
-C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\BE\obj\Debug\BE.vbprojResolveAssemblyReference.cache
 C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\BE\obj\Debug\BE.Resources.resources
 C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\BE\obj\Debug\BE.vbproj.GenerateResource.Cache
 C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\BE\obj\Debug\BE.dll
 C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\BE\obj\Debug\BE.xml
 C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\BE\obj\Debug\BE.pdb
+C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\BE\obj\Debug\BE.vbprojResolveAssemblyReference.cache
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\BE\obj\Debug\BE.vbprojResolveAssemblyReference.cache

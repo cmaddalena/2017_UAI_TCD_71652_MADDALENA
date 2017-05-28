@@ -1,4 +1,6 @@
-﻿Public Class Grupo_Pantentes
+﻿Imports BE
+
+Public Class Grupo_Pantentes
     Inherits PatenteAbstracta
 
     'Private _patentes As New List(Of PatenteAbstracta)
@@ -48,4 +50,11 @@
         Next
     End Sub
 
+
+
+    Public Overrides Function Agregar_rol(f As PatenteAbstracta) As Boolean
+        Me.patentes.Add(f)
+
+        Return True
+    End Function
 End Class

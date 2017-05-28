@@ -117,3 +117,8 @@ C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\Cyrsa FC\
 C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\Cyrsa FC\bin\Debug\BLL.xml
 C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\Cyrsa FC\bin\Debug\DAL.pdb
 C:\Users\Charly\Documents\GitHub\2017_UAI_TCD_71652_MADDALENA\Cyrsa FC\Cyrsa FC\bin\Debug\DAL.xml
+C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\obj\Debug\Cyrsa_FC.ALTA_PROFESOR.resources
+C:\Users\b039503\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\obj\Debug\Cyrsa_FC.ASIGNAR_CLASE.resources
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\obj\Debug\Cyrsa_FC.ALTA_PROFESOR.resources
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\obj\Debug\Cyrsa_FC.ASIGNAR_CLASE.resources
+C:\Users\Charly\Google Drive\TERCER AÑO\TRABAJO DE CAMPO\TP_CYRSA_FC\Cyrsa FC\Cyrsa FC\obj\Debug\Cyrsa_FC.Creacion_BBDD.resources

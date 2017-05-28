@@ -80,6 +80,18 @@
     <Compile Include="Alta_Cliente.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ALTA_PROFESOR.Designer.vb">
+      <DependentUpon>ALTA_PROFESOR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ALTA_PROFESOR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ASIGNAR_CLASE.Designer.vb">
+      <DependentUpon>ASIGNAR_CLASE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ASIGNAR_CLASE.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Calculo_Ganancias.Designer.vb">
       <DependentUpon>Calculo_Ganancias.vb</DependentUpon>
     </Compile>
@@ -181,6 +193,12 @@
     <EmbeddedResource Include="Alta_Cliente.resx">
       <DependentUpon>Alta_Cliente.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ALTA_PROFESOR.resx">
+      <DependentUpon>ALTA_PROFESOR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ASIGNAR_CLASE.resx">
+      <DependentUpon>ASIGNAR_CLASE.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Creacion_BBDD.resx">
       <DependentUpon>Creacion_BBDD.vb</DependentUpon>
     </EmbeddedResource>
@@ -250,6 +268,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\bbdd.png" />
+    <Content Include="Resources\futbol-2000x1218.jpg" />
     <Content Include="Resources\login.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
