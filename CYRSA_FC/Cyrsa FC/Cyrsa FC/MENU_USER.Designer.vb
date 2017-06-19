@@ -24,6 +24,7 @@ Partial Class MENU_USER
     Private Sub InitializeComponent()
         Me.MenuUser = New System.Windows.Forms.MenuStrip()
         Me.AToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IDIOMASToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuUser.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -31,7 +32,7 @@ Partial Class MENU_USER
         '
         Me.MenuUser.BackColor = System.Drawing.Color.Transparent
         Me.MenuUser.Font = New System.Drawing.Font("Showcard Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenuUser.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AToolStripMenuItem})
+        Me.MenuUser.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AToolStripMenuItem, Me.IDIOMASToolStripMenuItem})
         Me.MenuUser.Location = New System.Drawing.Point(0, 0)
         Me.MenuUser.Name = "MenuUser"
         Me.MenuUser.Padding = New System.Windows.Forms.Padding(9, 3, 0, 3)
@@ -44,6 +45,12 @@ Partial Class MENU_USER
         Me.AToolStripMenuItem.Name = "AToolStripMenuItem"
         Me.AToolStripMenuItem.Size = New System.Drawing.Size(115, 19)
         Me.AToolStripMenuItem.Text = "MENU_USUARIO"
+        '
+        'IDIOMASToolStripMenuItem
+        '
+        Me.IDIOMASToolStripMenuItem.Name = "IDIOMASToolStripMenuItem"
+        Me.IDIOMASToolStripMenuItem.Size = New System.Drawing.Size(73, 19)
+        Me.IDIOMASToolStripMenuItem.Text = "IDIOMAS"
         '
         'MENU_USER
         '
@@ -66,4 +73,5 @@ Partial Class MENU_USER
     End Sub
     Friend WithEvents MenuUser As System.Windows.Forms.MenuStrip
     Friend WithEvents AToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents IDIOMASToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

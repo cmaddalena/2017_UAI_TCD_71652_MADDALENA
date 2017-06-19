@@ -18,7 +18,7 @@ Public Class Conexion
 
         ' DAdapter.InsertCommand = CBuilder.GetInsertCommand
         ' DAdapter.DeleteCommand = CBuilder.GetDeleteCommand
-        'DAdapter.UpdateCommand = CBuilder.GetUpdateCommand
+        '  DAdapter.UpdateCommand = CBuilder.GetUpdateCommand
 
 
         DAdapter.Fill(DTable)

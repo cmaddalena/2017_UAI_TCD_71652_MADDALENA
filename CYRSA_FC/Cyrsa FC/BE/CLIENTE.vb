@@ -42,6 +42,26 @@
         End Set
     End Property
 
+    Private _AMONESTACION As Boolean
+    Public Property AMONESTACION() As Boolean
+        Get
+            Return _AMONESTACION
+        End Get
+        Set(ByVal value As Boolean)
+            _AMONESTACION = value
+        End Set
+    End Property
+
+
+    Private _EXPULSION As Boolean
+    Public Property EXPULSION() As Boolean
+        Get
+            Return _EXPULSION
+        End Get
+        Set(ByVal value As Boolean)
+            _EXPULSION = value
+        End Set
+    End Property
 
 
 End Class

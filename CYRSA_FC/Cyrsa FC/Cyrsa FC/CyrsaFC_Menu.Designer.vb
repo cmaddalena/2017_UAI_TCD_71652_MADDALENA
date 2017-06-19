@@ -38,7 +38,7 @@ Partial Class CyrsaFC_Menu
         Me.PictureBox1.Image = Global.Cyrsa_FC.My.Resources.Resources.login1
         Me.PictureBox1.Location = New System.Drawing.Point(39, 106)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(98, 86)
+        Me.PictureBox1.Size = New System.Drawing.Size(98, 88)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
@@ -51,7 +51,7 @@ Partial Class CyrsaFC_Menu
         Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox2.Location = New System.Drawing.Point(239, 106)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(100, 86)
+        Me.PictureBox2.Size = New System.Drawing.Size(98, 88)
         Me.PictureBox2.TabIndex = 5
         Me.PictureBox2.TabStop = False
         '
@@ -63,7 +63,7 @@ Partial Class CyrsaFC_Menu
         Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox3.Location = New System.Drawing.Point(435, 106)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(100, 86)
+        Me.PictureBox3.Size = New System.Drawing.Size(98, 88)
         Me.PictureBox3.TabIndex = 7
         Me.PictureBox3.TabStop = False
         '
@@ -72,7 +72,7 @@ Partial Class CyrsaFC_Menu
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.BackgroundImage = Global.Cyrsa_FC.My.Resources.Resources.images
+        Me.BackgroundImage = Global.Cyrsa_FC.My.Resources.Resources.portadafutbol
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(575, 298)
         Me.Controls.Add(Me.PictureBox3)

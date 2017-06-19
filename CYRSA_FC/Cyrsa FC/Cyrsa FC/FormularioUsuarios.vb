@@ -22,40 +22,6 @@
     End Sub
 
 
-    Private Sub btnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
-        '  mifamilia.Nombre = nombrefamilia
-        Dim nodo As TreeNode = Nothing
-
-        For Each f In Me.familias
-            If f.Nombre = nombrefamilia Then
-                If f.Seleccionada = True Then
-                    nodo = New TreeNode
-                    nodo.Text = f.Nombre
-                    nodo.Tag = f
-                    treePatentes.Nodes.Add(nodo)
-
-
-
-                    If f.list.Count > 0 Then
-                        LoadPermisoRecursivo(f, nodo)
-                    End If
-
-                End If
-
-            End If
-
-        Next
-
-        Dim u As New BE.Usuario
-        Dim fa As New BE.Grupo_Pantentes
-        u = DirectCast(ComboBox2.SelectedItem, BE.Usuario)
-        fa = DirectCast(comboBox1.SelectedItem, BE.Grupo_Pantentes)
-
-        gestorgrupos.asignar_permisos(u, fa)
-
-        Me.Close()
-    End Sub
-
     Private Sub LoadPermisoRecursivo(fa As BE.Grupo_Pantentes, tr As TreeNode)
         For Each f In fa.list
             If f.Seleccionada = True Then
@@ -107,10 +73,10 @@
 
     End Sub
 
-    Private Sub comboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles comboBox1.SelectedIndexChanged
+    Private Sub comboBox1_SelectedIndexChanged(sender As Object, e As EventArgs)
         Dim patentes As New List(Of BE.Patente)
         Dim gp As New BE.Grupo_Pantentes
-        gp = DirectCast(comboBox1.SelectedItem, BE.Grupo_Pantentes)
+        gp = DirectCast(ComboBox1.SelectedItem, BE.Grupo_Pantentes)
 
 
         patentes = gestorgrupos.Listar_patentesdelgrupo(gp.Nombre)
@@ -120,7 +86,7 @@
         tr = New TreeNode
         tr.Text = gp.Nombre
 
-        Me.treePatentes.Nodes.Add(tr)
+        Me.treepatentes.Nodes.Add(tr)
 
 
         For Each p In patentes
@@ -144,5 +110,54 @@
 
         Next
 
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs)
+        Dim frm As New MENU_USER
+        frm.Show()
+        Me.Close()
+    End Sub
+
+
+
+
+    Private Sub btnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
+        Dim nodo As TreeNode = Nothing
+
+        For Each f In Me.familias
+            If f.Nombre = nombrefamilia Then
+                If f.Seleccionada = True Then
+                    nodo = New TreeNode
+                    nodo.Text = f.Nombre
+                    nodo.Tag = f
+                    treepatentes.Nodes.Add(nodo)
+
+
+
+                    If f.list.Count > 0 Then
+                        LoadPermisoRecursivo(f, nodo)
+                    End If
+
+                End If
+
+            End If
+
+        Next
+
+        Dim u As New BE.Usuario
+        Dim fa As New BE.Grupo_Pantentes
+        u = DirectCast(ComboBox2.SelectedItem, BE.Usuario)
+        fa = DirectCast(ComboBox1.SelectedItem, BE.Grupo_Pantentes)
+
+        gestorgrupos.asignar_permisos(u, fa)
+
+        Me.Close()
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnvolvemenu.Click
+        Dim frm As New MENU_USER
+        frm.Show()
+        Me.Close()
     End Sub
 End Class

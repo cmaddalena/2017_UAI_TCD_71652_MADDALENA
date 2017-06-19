@@ -1,4 +1,5 @@
 ﻿Public Class Alta_Cliente
+    Implements BE.IObservador
 
 
     Private Sub MENUPRINCIPALToolStripMenuItem_Click(sender As Object, e As EventArgs)
@@ -25,9 +26,11 @@
             USUARIO.CLAVE = crypto.Encrypt(TextBox7.Text)
 
             ' USUARIO.Nombre = cliente.Nombre And "." And cliente.Apellido
+            Dim FA As String
 
+            FA = gestor.registarcliente(cliente, cuota, USUARIO)
 
-            gestor.registarcliente(cliente, cuota, USUARIO)
+            MessageBox.Show(FA)
 
 
         Else
@@ -37,14 +40,30 @@
         End If
 
 
+        For Each c As Control In Me.Controls
+            If TypeOf c Is TextBox Then
+                c.Text = ""
+            End If
+        Next
 
     End Sub
 
     Private Sub Alta_Cliente_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         conectar()
+        actualizaridioma()
 
     End Sub
 
-    
 
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim frm As New MENU_USER
+        frm.Show()
+        Me.Close()
+
+    End Sub
+
+    Public Sub actualizaridioma() Implements BE.IObservador.actualizaridioma
+        Module1.cambiar_lenguaje(BE.Lenguaje_form.getinstance.NOMBRE, Me)
+    End Sub
 End Class

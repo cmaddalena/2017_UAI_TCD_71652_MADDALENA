@@ -1,6 +1,12 @@
 ﻿Imports System.Reflection
 
 Public Class FormularioDialogoPatentes
+    Implements BE.IObservador
+
+
+    Public Sub actualizaridioma() Implements BE.IObservador.actualizaridioma
+        Module1.cambiar_lenguaje(BE.Lenguaje_form.getinstance.NOMBRE, Me)
+    End Sub
 
     Public Sub New()
 
@@ -27,7 +33,7 @@ Public Class FormularioDialogoPatentes
     End Function
 
     Private Sub FormularioDialogoPatentes_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        actualizaridioma()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

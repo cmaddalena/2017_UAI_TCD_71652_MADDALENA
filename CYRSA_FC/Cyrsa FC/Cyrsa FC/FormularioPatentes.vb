@@ -163,4 +163,9 @@ Public Class FormularioPatentes
     End Sub
 
 
+    Private Sub btnCancelar_Click(sender As Object, e As EventArgs) Handles btnvolvermenu.Click
+        Dim frm As New MENU_USER
+        frm.Show()
+        Me.Close()
+    End Sub
 End Class

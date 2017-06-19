@@ -79,6 +79,26 @@ Public Class MP_USUARIOS
     End Function
 
 
+    Public Sub update_lang_usr(u As BE.Usuario, l As BE.Lenguaje)
+
+        Conexion.updatedata("update USUARIOS set id_idioma= (select id_idioma from Lenguaje where nombre_idioma='" & l.NOMBRE & "') where usuario='" & u.Nombre & "'")
+    End Sub
+
+
+    Public Function leer_lang_usr(u As BE.Usuario) As BE.Lenguaje
+        Dim dt As New DataTable
+        Dim lenguaje As New BE.Lenguaje
+
+        dt = Conexion.GetData("select * from Lenguaje where id_idioma= (select id_idioma from Usuarios where usuario='" & u.Nombre & "')")
+
+        For Each r In dt.Rows
+            lenguaje.ID = r("id_idioma")
+            lenguaje.NOMBRE = r("nombre_idioma")
+
+        Next
+
+        Return lenguaje
+    End Function
 
 
 
@@ -86,7 +106,7 @@ Public Class MP_USUARIOS
     Public Function crearusuario(CLIENTE As BE.CLIENTE, CUOTA As BE.CUOTAS, USER As BE.Usuario) As Integer
         Dim pat As New BE.Patente
         Dim parametros(7) As SqlParameter
-      
+
 
 
         parametros(0) = acceso.crearparametro("@dni", CLIENTE.DNI)

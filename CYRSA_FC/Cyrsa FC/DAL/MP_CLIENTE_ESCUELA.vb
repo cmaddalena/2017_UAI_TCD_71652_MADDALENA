@@ -55,11 +55,11 @@ Public Class MP_CLIENTE_ESCUELA
 #Region "ELIMINAR CLIENTE"
     Public Function eliminarCliente(c As BE.CLIENTE, u As BE.Usuario) As Integer
 
-        Dim i As Integer = Conexion.updatedata("DELETE FROM CLIENTE_ESCUELA  Where DNI='" & c.DNI & "'")
-        Dim e As Integer = Conexion.updatedata("DELETE FROM USUARIOS  Where ID_CLIENTE='" & c.DNI & "'")
+        Dim i As Integer = Conexion.updatedata("UPDATE CLIENTE_ESCUELA SET ESTADO='INACTIVO' Where DNI='" & c.DNI & "'")
+        '  Dim e As Integer = Conexion.updatedata("DELETE FROM USUARIOS  Where ID_CLIENTE='" & c.DNI & "'")
 
         Return i
-        Return e
+        '  Return e
     End Function
 
 #End Region

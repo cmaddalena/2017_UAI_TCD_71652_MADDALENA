@@ -31,7 +31,19 @@ CyrsaFC
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Cyrsa_FC.My.Resources.Resources.cancha1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Cyrsa_FC.My.Resources.Resources.descarga">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Cyrsa_FC.My.Resources.Resources.el_futbol">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Cyrsa_FC.My.Resources.Resources.estadistica">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -59,11 +71,27 @@ CyrsaFC
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Cyrsa_FC.My.Resources.Resources.images__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Cyrsa_FC.My.Resources.Resources.login">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Cyrsa_FC.My.Resources.Resources.login1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Cyrsa_FC.My.Resources.Resources.portadafutbol">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Cyrsa_FC.My.Resources.Resources.promociones">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Cyrsa_FC.My.Resources.Resources.promos">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

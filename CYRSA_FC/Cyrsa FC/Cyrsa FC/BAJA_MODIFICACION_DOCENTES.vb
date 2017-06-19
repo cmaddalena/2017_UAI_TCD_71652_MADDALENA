@@ -1,11 +1,19 @@
-﻿Public Class BAJA_MODIFICACION_DOCENTES
+﻿Public Class BAJA_MODIFICACION_PERSONAL
+    Implements BE.IObservador
+
     Dim gestor As New BLL.Gestor_persona
 
 
     Private Sub BAJA_MODIFICACION_DOCENTES_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        actualizaridioma()
         ListBox1.DataSource = gestor.listar_docente
 
 
+    End Sub
+
+
+    Public Sub actualizaridioma() Implements BE.IObservador.actualizaridioma
+        Module1.cambiar_lenguaje(BE.Lenguaje_form.getinstance.NOMBRE, Me)
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -68,12 +76,9 @@
 
     End Sub
 
-
-
-
-
-
-
-
-
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim frm As New MENU_USER
+        frm.Show()
+        Me.Close()
+    End Sub
 End Class

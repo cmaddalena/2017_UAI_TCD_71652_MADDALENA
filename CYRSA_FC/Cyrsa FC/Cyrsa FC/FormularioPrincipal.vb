@@ -1,13 +1,26 @@
 ﻿Public Class FormularioPrincipal
+    Implements BE.IObservador
 
-    Private Sub btnDefinirPatentes_Click(sender As Object, e As EventArgs) Handles btnDefinirPatentes.Click
-        Dim frm As New FormularioPatentes
-        frm.ShowDialog()
+
+    Public Sub actualizaridioma() Implements BE.IObservador.actualizaridioma
+        Module1.cambiar_lenguaje(BE.Lenguaje_form.getinstance.NOMBRE, Me)
     End Sub
 
-    Private Sub btnDefinirFamilias_Click(sender As Object, e As EventArgs)
-        Dim frm As New FormularioFamilia
-        frm.ShowDialog()
+    Private Sub FormularioPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Module1.conectar()
+        actualizaridioma()
+    End Sub
+
+    Private Sub btnIniciarSesionComoUsuario_Click(sender As Object, e As EventArgs)
+      
+    End Sub
+
+
+    Private Sub btnIniciarSesionComoUsuario_Click_1(sender As Object, e As EventArgs) Handles btnIniciarSesionComoUsuario.Click
+ 
+
+        Loguin.Show()
+
     End Sub
 
     Private Sub btnDefinirUsuarios_Click(sender As Object, e As EventArgs) Handles btnDefinirUsuarios.Click
@@ -15,17 +28,14 @@
         frm.ShowDialog()
     End Sub
 
-    Private Sub btnIniciarSesionComoUsuario_Click(sender As Object, e As EventArgs) Handles btnIniciarSesionComoUsuario.Click
-        Loguin.Show()
-
+    Private Sub btnDefinirPatentes_Click_1(sender As Object, e As EventArgs) Handles btnDefinirPatentes.Click
+        Dim frm As New FormularioPatentes
+        frm.ShowDialog()
     End Sub
 
-    Private Sub FormularioPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Module1.conectar()
-
-    End Sub
-
-    Private Sub TableLayoutPanel2_Paint(sender As Object, e As PaintEventArgs) Handles TableLayoutPanel2.Paint
-
+    Private Sub btnvolvemenu_Click_1(sender As Object, e As EventArgs) Handles btnvolvemenu.Click
+        Dim frm As New MENU_USER
+        frm.Show()
+        Me.Close()
     End Sub
 End Class

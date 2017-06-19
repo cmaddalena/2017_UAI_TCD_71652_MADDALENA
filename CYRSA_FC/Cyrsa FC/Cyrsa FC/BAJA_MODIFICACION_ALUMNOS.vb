@@ -1,7 +1,9 @@
 ﻿Public Class BAJA_MODIFICACION_ALUMNOS
+    Implements BE.IObservador
+
     Dim gestor As New BLL.Gestor_persona
     Private Sub BAJA_MODIFICACION_ALUMNOS_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        actualizaridioma()
 
         ListBox1.DataSource = gestor.listar_cliente
 
@@ -16,8 +18,8 @@
         cliente.Nombre = txtbdocentesnombre.Text
         cliente.Apellido = txtbdocentesapellido.Text
         cliente.Mail = txtbdocentesmail.Text
-        cliente.FechaNac = dtpbdocentesfechacontrato.Value
-        user.CLAVE = txtbdocentessueldo.Text
+        cliente.FechaNac = dtpbdocentesfechanac.Value
+        user.CLAVE = txtbdocentespass.Text
 
         gestor.update_persona(cliente, user)
 
@@ -35,7 +37,7 @@
         txtbdocentesnombre.Text = cliente.Nombre
         txtbdocentesapellido.Text = cliente.Apellido
         txtbdocentesmail.Text = cliente.Mail
-        dtpbdocentesfechacontrato.Value = cliente.FechaNac
+        dtpbdocentesfechanac.Value = cliente.FechaNac
         ' user.CLAVE = TextBox7.Text
 
     End Sub
@@ -48,8 +50,8 @@
         cliente.Nombre = txtbdocentesnombre.Text
         cliente.Apellido = txtbdocentesapellido.Text
         cliente.Mail = txtbdocentesmail.Text
-        cliente.FechaNac = dtpbdocentesfechacontrato.Value
-        user.CLAVE = txtbdocentessueldo.Text
+        cliente.FechaNac = dtpbdocentesfechanac.Value
+        user.CLAVE = txtbdocentespass.Text
 
         gestor.eliminar_persona(cliente, user)
 
@@ -63,5 +65,17 @@
 
 
 
+    End Sub
+
+
+
+    Public Sub actualizaridioma() Implements BE.IObservador.actualizaridioma
+        Module1.cambiar_lenguaje(BE.Lenguaje_form.getinstance.NOMBRE, Me)
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim frm As New MENU_USER
+        frm.Show()
+        Me.Close()
     End Sub
 End Class

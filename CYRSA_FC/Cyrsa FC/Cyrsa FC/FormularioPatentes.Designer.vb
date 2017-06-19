@@ -33,7 +33,8 @@ Partial Class FormularioPatentes
         Me.panel1 = New System.Windows.Forms.Panel()
         Me.Familia = New System.Windows.Forms.Label()
         Me.tableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
-        Me.btnCancelar = New System.Windows.Forms.Button()
+        Me.btncancelar = New System.Windows.Forms.Button()
+        Me.btnvolvermenu = New System.Windows.Forms.Button()
         Me.btnAceptar = New System.Windows.Forms.Button()
         Me.ContextMenuStrip.SuspendLayout()
         Me.tableLayoutPanel1.SuspendLayout()
@@ -125,34 +126,50 @@ Partial Class FormularioPatentes
         '
         'tableLayoutPanel2
         '
-        Me.tableLayoutPanel2.ColumnCount = 2
+        Me.tableLayoutPanel2.ColumnCount = 3
         Me.tableLayoutPanel1.SetColumnSpan(Me.tableLayoutPanel2, 2)
-        Me.tableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.tableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.tableLayoutPanel2.Controls.Add(Me.btnCancelar, 1, 0)
+        Me.tableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.tableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.tableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.tableLayoutPanel2.Controls.Add(Me.btncancelar, 0, 0)
+        Me.tableLayoutPanel2.Controls.Add(Me.btnvolvermenu, 1, 0)
         Me.tableLayoutPanel2.Controls.Add(Me.btnAceptar, 0, 0)
         Me.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.tableLayoutPanel2.Location = New System.Drawing.Point(2, 202)
         Me.tableLayoutPanel2.Margin = New System.Windows.Forms.Padding(2)
         Me.tableLayoutPanel2.Name = "tableLayoutPanel2"
         Me.tableLayoutPanel2.RowCount = 1
-        Me.tableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.tableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.tableLayoutPanel2.Size = New System.Drawing.Size(420, 45)
         Me.tableLayoutPanel2.TabIndex = 5
         '
-        'btnCancelar
+        'btncancelar
         '
-        Me.btnCancelar.BackgroundImage = CType(resources.GetObject("btnCancelar.BackgroundImage"), System.Drawing.Image)
-        Me.btnCancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnCancelar.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCancelar.Location = New System.Drawing.Point(212, 2)
-        Me.btnCancelar.Margin = New System.Windows.Forms.Padding(2)
-        Me.btnCancelar.Name = "btnCancelar"
-        Me.btnCancelar.Size = New System.Drawing.Size(206, 41)
-        Me.btnCancelar.TabIndex = 0
-        Me.btnCancelar.Text = "Cancelar"
-        Me.btnCancelar.UseVisualStyleBackColor = True
+        Me.btncancelar.BackgroundImage = CType(resources.GetObject("btncancelar.BackgroundImage"), System.Drawing.Image)
+        Me.btncancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btncancelar.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.btncancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btncancelar.Location = New System.Drawing.Point(142, 2)
+        Me.btncancelar.Margin = New System.Windows.Forms.Padding(2)
+        Me.btncancelar.Name = "btncancelar"
+        Me.btncancelar.Size = New System.Drawing.Size(136, 41)
+        Me.btncancelar.TabIndex = 2
+        Me.btncancelar.Text = "Cancelar"
+        Me.btncancelar.UseVisualStyleBackColor = True
+        '
+        'btnvolvermenu
+        '
+        Me.btnvolvermenu.BackgroundImage = CType(resources.GetObject("btnvolvermenu.BackgroundImage"), System.Drawing.Image)
+        Me.btnvolvermenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnvolvermenu.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.btnvolvermenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnvolvermenu.Location = New System.Drawing.Point(282, 2)
+        Me.btnvolvermenu.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnvolvermenu.Name = "btnvolvermenu"
+        Me.btnvolvermenu.Size = New System.Drawing.Size(136, 41)
+        Me.btnvolvermenu.TabIndex = 0
+        Me.btnvolvermenu.Text = "Volver Menu"
+        Me.btnvolvermenu.UseVisualStyleBackColor = True
         '
         'btnAceptar
         '
@@ -163,7 +180,7 @@ Partial Class FormularioPatentes
         Me.btnAceptar.Location = New System.Drawing.Point(2, 2)
         Me.btnAceptar.Margin = New System.Windows.Forms.Padding(2)
         Me.btnAceptar.Name = "btnAceptar"
-        Me.btnAceptar.Size = New System.Drawing.Size(206, 41)
+        Me.btnAceptar.Size = New System.Drawing.Size(136, 41)
         Me.btnAceptar.TabIndex = 1
         Me.btnAceptar.Text = "Aceptar"
         Me.btnAceptar.UseVisualStyleBackColor = True
@@ -190,10 +207,11 @@ Partial Class FormularioPatentes
     Private WithEvents panel1 As System.Windows.Forms.Panel
     Private WithEvents Familia As System.Windows.Forms.Label
     Private WithEvents tableLayoutPanel2 As System.Windows.Forms.TableLayoutPanel
-    Private WithEvents btnCancelar As System.Windows.Forms.Button
+    Private WithEvents btnvolvermenu As System.Windows.Forms.Button
     Private WithEvents btnAceptar As System.Windows.Forms.Button
     Friend WithEvents ContextMenuStrip As System.Windows.Forms.ContextMenuStrip
     Friend WithEvents AgregarGruposDePatenteToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AgregarPatenteToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents EliminarElementoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Private WithEvents btncancelar As System.Windows.Forms.Button
 End Class

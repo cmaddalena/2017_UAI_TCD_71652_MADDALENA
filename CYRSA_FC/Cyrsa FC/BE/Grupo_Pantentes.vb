@@ -13,7 +13,7 @@ Public Class Grupo_Pantentes
     '    End Set
     'End Property
 
-    Dim patentes As New List(Of BE.PatenteAbstracta)
+    Public patentes As New List(Of BE.PatenteAbstracta)
     Public Overrides Function list() As List(Of BE.PatenteAbstracta)
         Return patentes
     End Function
@@ -27,6 +27,22 @@ Public Class Grupo_Pantentes
             patente.MostrarEnTreeview(node.Nodes)
         Next
     End Sub
+
+    Private Shared _instance As Grupo_Pantentes
+    Public Shared Function GetInstance() As Grupo_Pantentes
+
+        If _instance Is Nothing Then
+            _instance = New Grupo_Pantentes
+        End If
+
+        Return _instance
+    End Function
+
+    'Shared Sub con(s As String)
+    '    _instance.str = s
+
+
+    'End Sub
 
     Public Overrides Function Clone() As PatenteAbstracta
         Dim pat As New BE.Grupo_Pantentes

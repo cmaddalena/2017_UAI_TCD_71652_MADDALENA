@@ -34,11 +34,13 @@
 
     End Sub
 
-    Private Sub btnCancelar_Click(sender As Object, e As EventArgs) Handles btnCancelar.Click
+    Private Sub btnCancelar_Click(sender As Object, e As EventArgs) Handles btnvolvermenu.Click
         Me.Close()
     End Sub
 
     Private Sub FormularioFamilia_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Dim frm As New MENU_USER
+        frm.Show()
+        Me.Close()
     End Sub
 End Class

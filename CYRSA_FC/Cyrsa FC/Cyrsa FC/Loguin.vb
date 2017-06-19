@@ -1,4 +1,6 @@
 ﻿Public Class Loguin
+    Implements BE.IObservador
+
     Dim gestor As New BLL.Gestor_Patente
     Dim gestorusr As New BLL.Gestor_Usuario
     Dim crypto As New BE.CryptoManager
@@ -36,19 +38,31 @@
                 Else
                     '  ListBox1.DataSource = patentes
                     Dim frm As New MENU_USER
-                    frm.inicio(patentes)
+                    '  frm.inicio(patentes)
 
+
+                    InitializeComponent()
+                    For Each p In patentes
+                        BE.Grupo_Pantentes.GetInstance.Agregar_rol(p)
+
+                    Next
+
+
+                    MENU_USER.Show()
+                    Module1.usrsession = user
+                    actualizaridioma()
+                    Me.Hide()
 
                 End If
             Catch
-              
+
             End Try
 
         Else
 
             MessageBox.Show("Ingrese valores correctos en ambos campos")
         End If
-        
+
 
     End Sub
 
@@ -77,5 +91,16 @@
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
 
+    End Sub
+
+    Public Sub actualizaridioma() Implements BE.IObservador.actualizaridioma
+        Dim nombre_lenguaje_usr As String
+        Try
+            nombre_lenguaje_usr = gestorusr.leer_idioma_usr(Module1.usrsession).NOMBRE
+            BE.Lenguaje_form.getinstance.NOMBRE = nombre_lenguaje_usr
+
+        Catch ex As Exception
+
+        End Try
     End Sub
 End Class

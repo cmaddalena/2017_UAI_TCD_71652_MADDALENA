@@ -31,7 +31,7 @@ Public Class MP_PROFESOR
                 grupo.Apellido = dr.Item(2)
                 grupo.FECHA_INGRESO = dr.Item(3)
                 grupo.SUELDO = dr.Item(4)
-                grupo.Mail = dr.Item(8)
+                grupo.Mail = dr.Item(7)
                 '  grupo.CLASES.Item.add(dr.Item(5))
                 grupo.FechaNac = dr.Item(6)
 
