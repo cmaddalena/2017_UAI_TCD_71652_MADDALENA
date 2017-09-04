@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA4F3399-E950-406C-9C5B-40FC97589AA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Cyrsa_FC.My.MyApplication</StartupObject>
+    <RootNamespace>Cyrsa_FC</RootNamespace>
+    <AssemblyName>Cyrsa FC</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Cyrsa FC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Cyrsa FC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABMS\ABMLenguaje.Designer.vb">
+      <DependentUpon>ABMLenguaje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ABMS\ABMLenguaje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABMS\Alta_Cliente.Designer.vb">
+      <DependentUpon>Alta_Cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ABMS\Alta_Cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABMS\Alta_Equipo.Designer.vb">
+      <DependentUpon>Alta_Equipo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ABMS\Alta_Equipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABMS\ALTA_PROFESOR.Designer.vb">
+      <DependentUpon>ALTA_PROFESOR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ABMS\ALTA_PROFESOR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ASIGNAR_CLASE.Designer.vb">
+      <DependentUpon>ASIGNAR_CLASE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ASIGNAR_CLASE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABMS\BAJA_MODIFICACION_ALUMNOS.Designer.vb">
+      <DependentUpon>BAJA_MODIFICACION_ALUMNOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ABMS\BAJA_MODIFICACION_ALUMNOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABMS\BAJA_MODIFICACION_DOCENTES.Designer.vb">
+      <DependentUpon>BAJA_MODIFICACION_DOCENTES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ABMS\BAJA_MODIFICACION_DOCENTES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bitacora.Designer.vb">
+      <DependentUpon>Bitacora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bitacora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculo_Ganancias.Designer.vb">
+      <DependentUpon>Calculo_Ganancias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calculo_Ganancias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta_estado_cuenta.Designer.vb">
+      <DependentUpon>Consulta_estado_cuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta_estado_cuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creacion_BBDD.Designer.vb">
+      <DependentUpon>Creacion_BBDD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Creacion_BBDD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CyrsaFC_Menu.Designer.vb">
+      <DependentUpon>CyrsaFC_Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CyrsaFC_Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ESTADISTICAS_TORNEOS.Designer.vb">
+      <DependentUpon>ESTADISTICAS_TORNEOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ESTADISTICAS_TORNEOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loguin.Designer.vb">
+      <DependentUpon>Loguin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Loguin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PERFILES\FormularioDialogoPatentes.Designer.vb">
+      <DependentUpon>FormularioDialogoPatentes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PERFILES\FormularioDialogoPatentes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PERFILES\FormularioFamilia.Designer.vb">
+      <DependentUpon>FormularioFamilia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PERFILES\FormularioFamilia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PERFILES\FormularioPatentes.Designer.vb">
+      <DependentUpon>FormularioPatentes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PERFILES\FormularioPatentes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PERFILES\FormularioPrincipal.Designer.vb">
+      <DependentUpon>FormularioPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PERFILES\FormularioPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PERFILES\FormularioUsuarios.Designer.vb">
+      <DependentUpon>FormularioUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PERFILES\FormularioUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PERFILES\Form_Confirmacion.Designer.vb">
+      <DependentUpon>Form_Confirmacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PERFILES\Form_Confirmacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_USER.Designer.vb">
+      <DependentUpon>MENU_USER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_USER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PROMOCIONES.Designer.vb">
+      <DependentUpon>PROMOCIONES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PROMOCIONES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TORNEOS.Designer.vb">
+      <DependentUpon>TORNEOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TORNEOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ABMS\ABMLenguaje.resx">
+      <DependentUpon>ABMLenguaje.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABMS\Alta_Cliente.resx">
+      <DependentUpon>Alta_Cliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABMS\Alta_Equipo.resx">
+      <DependentUpon>Alta_Equipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABMS\ALTA_PROFESOR.resx">
+      <DependentUpon>ALTA_PROFESOR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ASIGNAR_CLASE.resx">
+      <DependentUpon>ASIGNAR_CLASE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABMS\BAJA_MODIFICACION_ALUMNOS.resx">
+      <DependentUpon>BAJA_MODIFICACION_ALUMNOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABMS\BAJA_MODIFICACION_DOCENTES.resx">
+      <DependentUpon>BAJA_MODIFICACION_DOCENTES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bitacora.resx">
+      <DependentUpon>Bitacora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creacion_BBDD.resx">
+      <DependentUpon>Creacion_BBDD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CyrsaFC_Menu.resx">
+      <DependentUpon>CyrsaFC_Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ESTADISTICAS_TORNEOS.resx">
+      <DependentUpon>ESTADISTICAS_TORNEOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loguin.resx">
+      <DependentUpon>Loguin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PERFILES\FormularioDialogoPatentes.resx">
+      <DependentUpon>FormularioDialogoPatentes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PERFILES\FormularioFamilia.resx">
+      <DependentUpon>FormularioFamilia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PERFILES\FormularioPatentes.resx">
+      <DependentUpon>FormularioPatentes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PERFILES\FormularioPrincipal.resx">
+      <DependentUpon>FormularioPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PERFILES\FormularioUsuarios.resx">
+      <DependentUpon>FormularioUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PERFILES\Form_Confirmacion.resx">
+      <DependentUpon>Form_Confirmacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_USER.resx">
+      <DependentUpon>MENU_USER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PROMOCIONES.resx">
+      <DependentUpon>PROMOCIONES.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BE\BE.vbproj">
+      <Project>{3f1e5eeb-c46a-454c-94f5-7dff3fb79dca}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\BLL.vbproj">
+      <Project>{ffce11d1-cf83-418e-99aa-2c0bac32d7bb}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\bbdd.png" />
+    <None Include="Resources\promociones.jpg" />
+    <None Include="Resources\promos.jpeg" />
+    <None Include="Resources\portadafutbol.jpg" />
+    <None Include="Resources\login2.png" />
+    <None Include="Resources\login1.png" />
+    <None Include="Resources\user-login-icon-29.png" />
+    <None Include="Resources\button.png" />
+    <None Include="Resources\button_background.jpg" />
+    <None Include="Resources\cancha.jpg" />
+    <None Include="Resources\Football_iu_1996.jpg" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\exit1.png" />
+    <None Include="Resources\exit2.png" />
+    <None Include="Resources\el-futbol.jpg" />
+    <None Include="Resources\cancha.gif" />
+    <None Include="Resources\descarga.jpeg" />
+    <None Include="Resources\estadistica.jpg" />
+    <Content Include="Resources\futbol-2000x1218.jpg" />
+    <None Include="Resources\images.jpeg" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\help1.png" />
+    <None Include="Resources\images %281%29.jpeg" />
+    <None Include="Resources\idiomas.jpg" />
+    <Content Include="Resources\login.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
